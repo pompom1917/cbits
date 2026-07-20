@@ -19,7 +19,8 @@
 #define RED(s)    ("\x1b[1;31m" s "\x1b[0m")
 #define YELLOW(s) ("\x1b[1;33m" s "\x1b[0m")
 
-bool had_error;
+bool had_error,
+     err_colour = true;
 
 static bool iscolour(void);
 
@@ -58,5 +59,5 @@ warn(const char *fmt, ...)
 static bool
 iscolour(void)
 {
-	return isatty(2); /* check if stdout is a terminal */
+	return isatty(2) && err_colour; /* check if stdout is a terminal */
 }

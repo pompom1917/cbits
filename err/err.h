@@ -9,7 +9,8 @@
 #ifndef ERR_H
 #define ERR_H
 
-extern _Bool had_error;
+extern _Bool had_error,
+             err_colour;
 
 _Noreturn void fatal(const char *, ...);
 void error(const char *, ...);
