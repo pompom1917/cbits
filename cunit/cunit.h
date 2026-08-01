@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#if !defined(__STDC__) || __STDC_VERSION__ < 201112L
+#if !defined(__STDC_VERSION__) || __STDC_VERSION__ < 201112L
 	#error "Standard C11 or later required"
 #endif
 
