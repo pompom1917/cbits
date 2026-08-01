@@ -1,0 +1,12 @@
+                  cbits -- Simple, finished C11 snippets
+                  ======================================
+
+These are minimal C snippets for solving common problems. They are complete and
+finished; no updates are necessary and no updates will be provided.  Therefore,
+you can use them by simply copying them to your project (and the licence terms
+make this very easy).
+
+They are written in standard C11/C17, and should also compile with C23,
+although I haven't tested it. Some, but not all, snippets require a POSIX
+environment. For further information, see the README files in the individual
+directories.
