@@ -6,8 +6,8 @@
  * this notice are preserved. This file is offered as-is, without any warranty.
  */
  
-#ifndef ERR_H
-#define ERR_H
+#ifndef ERR_H__
+#define ERR_H__
 
 extern _Bool had_error,
              err_colour;
