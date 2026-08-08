@@ -61,5 +61,5 @@ warn(const char *fmt, ...)
 static bool
 iscolour(void)
 {
-	return isatty(2) && err_colour; /* check if stdout is a terminal */
+	return isatty(2) && err_colour; /* check if stderr is a terminal */
 }
