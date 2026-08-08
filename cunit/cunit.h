@@ -6,8 +6,8 @@
  * this notice are preserved. This file is offered as-is, without any warranty.
  */
 
-#ifndef CUNIT_H
-#define CUNIT_H
+#ifndef CUNIT_H__
+#define CUNIT_H__
 
 #include <stdio.h>
 #include <stdlib.h>
