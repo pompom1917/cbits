@@ -2,9 +2,13 @@
                   ======================================
 
 These are minimal C snippets for solving common problems. They are complete and
-finished; no updates are necessary and no updates will be provided.  Therefore,
-you can use them by simply copying them to your project (and the licence terms
-make this very easy).
+finished; no updates are necessary and no updates will be provided. Some changes may
+be made, but they don't add new features
+or correct bugs -- mostly, they just
+correct typos and style. Therefore,you
+can use them by simply copying them to your
+project (and the licence terms make this
+very easy).
 
 They are written in standard C11/C17, and should also compile with C23,
 although I haven't tested it. Some, but not all, snippets require a POSIX
