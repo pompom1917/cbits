@@ -6,7 +6,6 @@
  * this notice are preserved. This file is offered as-is, without any warranty.
  */
 
-#define _POSIX_C_SOURCE 1
 #include <stdarg.h>
 #include <stdbool.h>
 #include <stdio.h>
